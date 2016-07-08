@@ -1,0 +1,217 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #DEDEDE;
+}
+
+/*头部分*/
+
+header{
+	height: 60px;
+	line-height: 60px;
+	background-color: #333333;
+	position:fixed;
+	width:100%;
+	top: 0px;
+}
+
+nav{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	font-size: 12px;
+
+}
+
+nav ul li{
+	list-style: none;
+	float:left;
+	margin-left: 10px;
+}
+
+nav ul li:hover{
+	border-bottom: 3px solid #2597BE;
+	background-color: #474747;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+/*内容部分*/
+
+
+main {
+	margin-top: 80px;
+}
+
+article{
+	margin: 20px;
+	box-shadow: 2px 2px 4px 1px gray;
+	background-color: white;
+	padding: 30px;
+}
+
+article h1{
+	line-height: 40px;
+	font-weight: bold;
+}
+
+article h2{
+	line-height:40px;
+	font-weight: bold;
+}
+
+article h3{
+	line-height: 30px;
+	font-weight: bold;
+}
+
+article p {
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+article ul{
+	margin-left: 10px;
+}
+
+article ul li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+.img_list li{
+	margin-top: 10px;
+	width: 200px;
+	text-align: center;
+	border: 2px solid gray;
+	display: inline-block;
+}
+
+.img_list li p,.author,.tablep{
+	text-indent: 0em;
+}
+
+.author{
+	font-size: 12px;
+	color: #EAECEC;
+}
+
+article ol{
+	font-weight: 900;
+	margin-left: 80px;	
+}
+
+article table{
+	width:100%;
+	border-color: #CCCCCC;
+	border-collapse: collapse;/*设置表格的边框被合并为一个单一的边框*/
+}
+article table th{
+	padding: 5px;
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+article table .inall{
+	background-color: #CCCCCC;
+	font-weight: 900;
+}
+
+aside{
+	margin: 0 20px 20px 20px;
+	box-shadow: 2px 2px 4px 1px gray;
+	background-color: white;
+	padding: 30px;
+}
+
+aside h2{
+	height:40px;
+	font-size: 20px;
+	font-weight: 900;
+	border-left: 3px solid #D7D7D7;
+	line-height: 40px;
+}
+
+aside h3,form{
+	text-align: center;
+	line-height: 30px;
+}
+
+.emailpoint,.pwdpoint{
+	font-size: 10px;
+	text-indent: 12em;
+	color: #CCCCCC;
+	position: relative;
+	bottom:8px;
+}
+.pwdpoint{
+	text-indent: 10em;
+}
+
+.pwd1{
+	text-indent: 2em;
+}
+
+.city{
+	text-indent: -1em;
+}
+
+.hobby{
+	text-indent: 5em;
+	position: relative;
+	left:4px;
+}
+
+.discription{
+	text-indent: 6em;
+}
+.discription label{
+	margin-top: 0px;
+	position: relative;
+	top:-40px;
+}
+
+.submit{
+	width:100%;
+	height:50px;
+	font-size: 30px;
+	font-weight: 900;
+	border-radius: 10px ;
+	background-color: #128FDC;
+	line-height: 50px;
+	border: none;
+}
+
+.submit:hover{
+	background-color: #0063DC;
+	color:white;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	height:50px;
+	line-height: 50px;
+	font-weight: 900;
+	color: white;
+	background-color: black;
+}
+
+.left{
+	margin-right: 470px;
+	min-width: 400px;
+}
+
+.right{
+	margin-top: 0px;
+	width :500px;
+	float:right;
+}
