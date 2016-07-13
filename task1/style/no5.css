@@ -49,6 +49,7 @@ nav ul li a{
 
 main {
 	margin-top: 80px;
+	min-width: 700px;
 }
 
 article{
@@ -207,7 +208,6 @@ footer{
 
 .left{
 	margin-right: 470px;
-	min-width: 400px;
 }
 
 .right{

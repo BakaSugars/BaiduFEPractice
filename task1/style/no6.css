@@ -1,0 +1,456 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #5D5D5D;
+}
+
+.page{
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	width:980px;
+	height: 1386px;
+}
+
+header{
+	height: 61px;
+	width: 892px;
+	border-bottom: 2px solid #938e8c;
+	margin-left: 44px;
+	position: relative;
+}
+
+header div{
+	height: 61px;
+	width: 110px;
+	background-color: #D55D5C;
+}
+
+header div a{
+	position: absolute;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #FFFFFF;
+	bottom:3px;
+	left:5px;
+}
+
+header time{
+	position: absolute;
+	right:0px;
+	bottom:3px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #d45d5c;
+}
+
+footer{
+	margin-left: 44px;
+	width: 892px;
+	border-top: solid 2px #938e8c;
+	position: relative;
+}
+
+main {
+	margin-top: 34px;
+	width: 892px;
+	margin-left: 44px;
+}
+
+.title {
+	height: 301px;
+	width: 892px;
+}
+
+.title .image{
+	height: 301px;
+	width: 641px;
+	background-image: url(../img/first_IMG.png);
+	float: left;	
+}
+
+.shadow1{
+	float:left;
+	background-color: green;
+	opacity: 0.5;
+	height: 301px;
+	width: 191px;
+	background-color: #cc7580;
+}
+
+.shadow2{
+	float:right;
+	background-color: #428c59;
+	opacity: 0.5;
+	height: 301px;
+	width: 191px;
+}
+
+.word{
+	border-top: 2px solid #cc8091;
+	width: 203px;
+	height: 299px;
+	float: right;
+}
+
+.word .About_Technologe {
+  margin-top: 12px;
+  font-size: 24px;
+  font-family: "微软雅黑";
+  color: rgb(4, 0, 0);
+  text-decoration: underline;
+  font-variant: small-caps;
+  font-weight: 500;
+  line-height: 0.8;
+}
+
+.word .description{
+	margin-top:10px;
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";
+	line-height: 0.8;
+}
+
+.word .big{
+	font-size: 116px;
+	color: #75b86b;
+	font-family: "微软雅黑";
+	font-style: oblique;
+	margin-left: -18px;
+}
+
+.word .red{
+	font-size: 55px;
+	color: #cc8091;
+	font-family: "微软雅黑";
+}
+
+.word .smaller{
+	display: inline-block;
+}
+
+.word .smaller .css{
+	font-size: 21px;
+	font-family: "微软雅黑";
+	color: #cc8091;
+}
+
+.word .smaller .cssss{
+	font-size: 12px;
+	color: #cc8091;
+	font-family: "微软雅黑";
+}
+
+.what_when_how{
+	margin-top: 34px;
+	overflow: auto;
+}
+
+.what_when_how h2{
+	font-size: 16px;
+	text-decoration: underline;
+	margin-bottom: 16px;
+	font-weight: 700;
+}
+
+.what_when_how p{
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 16px;
+}
+
+.what {
+	float: left;
+	margin-right: 20px;
+	width: 230px;
+}
+
+.what h2{
+	color: #418c59;
+}
+
+.when{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+.when h2{
+	color: #d2994f;
+}
+.when p{
+	opacity: 0.7;
+	font-family: "微软雅黑"
+}
+
+.how{
+	width: 200px;
+	float: left;
+}
+
+
+.how h2{
+	color: #cc7680;
+}
+
+.how p{
+	line-height: 20px;
+}
+
+.how .article{
+	margin-bottom: 4em;
+}
+
+.how ul li span{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	line-height: 16px;
+	opacity: 0.7;
+	letter-spacing: 2px;
+	font-style: oblique;
+	color: #cd4a48;
+}
+.how ul li{
+	list-style: none;
+	line-height: 16px;
+}
+
+.content{
+	margin-top: 54px;
+	overflow: auto;
+}
+
+.content .left{
+	float: left;
+	width: 415px;
+}
+.content .left .top{
+	border-bottom: 2px solid #11456b;
+}
+.content .left .top p{
+	font-size: 42px;
+	font-family: "黑体";
+	font-weight: 700;
+	line-height: 50px;
+	color: #11456b;
+}
+
+.content .left .top p span{
+	font-size: 72px;
+	font-family: "黑体";
+	font-weight: 900;
+	font-style: oblique;
+	color: #f5e327;
+}
+
+.content .left .top .field{
+	font-size: 33px;
+	color: #11456b;
+	font-family: "黑体";
+	font-weight: bold;
+}
+
+.content .left .bottom{
+	margin-top: 20px;
+	position: relative;
+}
+.content .left .bottom .front{
+	font-size: 70px;
+	font-weight: 500;
+	font-family: "微软雅黑";
+	float: left; 
+	color: #f5e327;
+	margin-right: 14px;
+}
+
+.content .left .bottom p{
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 16px;
+	text-indent: 2em;
+}
+#no_indent{
+	text-indent: 0;
+}
+.content .left .bottom p img{
+	float: right;
+}
+.content .right{
+	float: right;
+	width: 458px;
+}
+
+.content .right .top{
+	height: 257px;
+	width: 458px;
+	background-image: url(../img/FETech.png);
+	position: relative;
+}
+.content .right .top div{
+	position: absolute;
+	bottom: 0px;
+	width: 458px;
+	height: 61px;
+	background-color: black;
+	opacity: 0.5;
+	line-height: 61px;
+}
+
+.content .right .top div h2{
+	display: inline-block;
+	height: 44px;
+	margin-left: 44px;
+	border-left: 3px solid #72b16a;
+	color: white;
+	padding-left: 15px;
+	font-size: 26px;
+	font-family: "微软雅黑";
+	line-height: 44px;
+}
+
+.content .right .top div p{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 12px;
+	font-family:"微软雅黑";
+	font-style: oblique;
+	color: #72b16a;
+}
+
+.content .right .bottom{
+	height: 298px;
+	width: 458px;
+	margin-top: 30px;
+	background-color: #EEEED6;
+	padding-top: 20px;
+	position: relative;
+}
+
+.content .right .bottom ul{
+	margin-left: 30px;
+	list-style: none;
+}
+
+
+.content .right .bottom ul li{
+	font-size: 16px;
+	line-height: 36px;
+	color: #5a5b5b;
+	font-family: "宋体";
+
+}
+
+.content .right .bottom ul li span{
+	font-size: 12px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	font-style: oblique;
+	text-align: right;
+	line-height: 20px;
+}
+.content .right .bottom .bottom_bottom{
+	position: absolute;
+	bottom: 0px;
+	height: 160px;
+	width: 458px;
+}
+
+.content .right .bottom .bottom_bottom .left_bottom{
+	width: 260px;
+	height: 160px;
+	line-height: 160px;
+	background-color: #D55D5C;
+	display: inline-block;
+}
+
+.left_bottom .zero{
+	margin-left: 10px;
+	font-size: 110px;
+	font-family: "微软雅黑";
+	color: white;
+}
+
+.left_bottom .text{
+	display: inline-block;
+	height: 86px;
+	border-left: 2px solid white;
+}
+
+.left_bottom .text .p1{
+	margin-left: 10px;
+	line-height: 24px;
+	font-size: 21px;
+	font-family: "黑体";
+	color: white;
+	font-style: oblique;
+}
+
+.left_bottom .text .p2{
+	margin-left: 10px;
+	line-height: 18px;
+	color: white;
+	font-size: 12px;
+	font-family: "黑体";
+}
+
+.content .right .bottom .bottom_bottom .right_bottom{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-size: 14px;
+	font-family: "黑体";
+	font-style: oblique;	
+	line-height: 16px;
+	color: #5a5b5b;
+	width: 170px;
+	height:160px;
+	vertical-align: top;
+	position: relative;
+}
+
+.right_bottom span{
+	font-size: 72px;
+	font-family: "黑体";
+	color: #d45d5c;
+	vertical-align: bottom;
+}
+
+.span1{
+	position: relative;
+	left: -10px;
+	bottom: -16px;
+}
+
+.span2{
+	position: absolute;
+	bottom: 32px;
+	right: -8px;
+}
+footer a{
+	position: absolute;
+	right:0px;
+	top:3px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #d45d5c;
+	text-decoration: none;
+}
+/*
+我所不知道的
+1.text-align只有 left right center justify(两端对齐) 
+inherit这几种
+2.background-image的属性接 url(URL);即可
+,注意：url位置相对于css文件位置，在其他文件夹下需要加../
+3.font-variant: small-caps将大写更大，小写变大写
+4.font-style中的oblique表示斜体，程度比italic要轻
+5.inline-block的对其，对你想要对其方式的对象添加vertical特性即可
+就如同上面的right_bottom
+未解决的问题
+1.li的三角形怎么画
+2.如何在左对齐的文本中添加右对齐的文本
+优化方法
+1.很多重复出现的属性完全可以写在一起
+*/
